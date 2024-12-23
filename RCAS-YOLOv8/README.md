@@ -1,14 +1,15 @@
 RCAS-YOLOv8 re-implementation using PyTorch
 
+### Options
+
+For each option you must to download the repository for YOLOv8
+
 ### Installation
 
 ```
-conda create -n YOLO python=3.8
+conda create -n YOLO8-RCA python=3.8
 conda activate YOLO
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts
-pip install opencv-python==4.5.5.64
-pip install PyYAML
-pip install tqdm
+
 ```
 
 ### Train
@@ -26,4 +27,7 @@ pip install tqdm
 #### Reference
 
 * https://github.com/ultralytics/yolov5
-* https://github.com/ultralytics/ultralytics
+
+
+#### DataSet
+https://github.com/InsulatorData/InsulatorDataSet
